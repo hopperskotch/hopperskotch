@@ -1,0 +1,13 @@
+Page tree:
+Index
+Blog
+	Personal Blog
+	Site Diary Catalog
+Art Projects
+	Pictures
+	Drawings/Paintings
+	My Writings
+Graphics
+	Backgrounds
+	Blinkies
+	Page Dividers

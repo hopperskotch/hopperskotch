@@ -8,29 +8,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="hopperskotch's projects development diary and portfolio" />
     <title>hopperskotch.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/bwstyle.css" />
 </head>
 <!--
  August 27, 2026
  Added header and footer navigation, paragraph to main, copyright information and donation link.
  Git commit done
 -->
+ <!--
+August 31, 2026
+Inserted div element and nested nav links in ul for better CSS formatting
+removed duplicate links to index
+fixed kofi link and set target to blank page
+added photo.
+added css folder and file, and inserted both normalize stylesheet link and a relative link to my stylesheet
+created site description with keywords
+-->
 <body>
+    <div>
     <header>
         <a href="index.html"><h1>hopperskotch</h1></a>
         <nav id="header_nav">
-            <a href="index.html">Go Home!</a>
+        <ul>
+            <li><a href="none">None link</a></li>
+        </ul>
         </nav>
     </header>
     <main>
         <p>This is the website for hopperskotch's projects. Thank you for checking out hopperskotch's website. </p>
+        <img src="photos/memory.jpg" height="461" width="614" alt="A happy memory" />
+        <aside>Childhood friends...</aside>
     </main>
     <footer>
         <nav id="footer_nav">
-            <a href="index.html">Go Home!</a>
+            <ul>
+            <li><a href="none">none link</a></li>
+            </ul>
         </nav>
         <p>Copyright &copy; 2026. hopperskotch.</p>
-        <p>This website was coded manually! Like it? <a href="kofi.com/hopperskotch">Send me a coffee.</a></p>
+        <p>This website was coded manually! Like it? <a href="https://ko-fi.com/hopperskotch" target="_blank">Send me a coffee.</a></p>
     </footer>
+    </div>
 </body>
 </html>
